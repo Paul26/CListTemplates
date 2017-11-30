@@ -20,7 +20,7 @@ class SalesEmployee : public SalariedEmployee
 
 		virtual double calcPay()
 		{
-			return SalariedEmployee::calcPay() + commission;
+			return (SalariedEmployee::calcPay() + commission) * sales;
 		}
 
 
