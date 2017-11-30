@@ -49,7 +49,7 @@ class Employee
 		}
 
 
-		virtual void display()  // ************************************************  Might need an if...statment to account for a NULL ptr, then display.
+		virtual void display()  
 		{
 			cout << "Employee: " << name << endl;
 			birthDate.display();
