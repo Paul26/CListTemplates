@@ -55,7 +55,7 @@ int main()
 					prompt("City", city);
 					WagedEmployee* we = new WagedEmployee(name, year, month, day, wage, hours);
 					we->setAddress(street, city);
-					cout << *we << endl;
+					//cout << *we << endl;
 					//we->display();
 					employee.insert(we); 
 					break;
@@ -73,7 +73,7 @@ int main()
 					prompt("City", city);
 					SalariedEmployee* se = new SalariedEmployee(name, year, month, day, salary);
 					se->setAddress(street, city);
-					cout << *se << endl;
+					//cout << *se << endl;
 					//se->display();
 					employee.insert(se);  
 					break;
@@ -96,7 +96,7 @@ int main()
 					SalesEmployee* se = new SalesEmployee(name, year, month, day,
 							salary, commission, sales);
 					se->setAddress(street, city);
-					cout << *se << endl;
+					//cout << *se << endl;
 					//se->display();
 					employee.insert(se);  
 					break;
@@ -104,13 +104,6 @@ int main()
 
 			case '4' :
 				{
-					//string name;
-					//prompt("Name", name);    //  ****************  I don't believe I need any of these comments, is this correct?
-					//prompt("Year", year);    //  ****************  Because option 4 is to only list what has been inserted into the CList, correct? 
-					//prompt("Month", month);  //  **************** plus it goes into an infinite loop if used.
-					//prompt("Day", day);
-					//prompt("Street", street);
-					//prompt("City", city);
 					employee.list();
 					break;
 				}

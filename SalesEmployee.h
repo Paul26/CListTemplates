@@ -24,7 +24,7 @@ class SalesEmployee : public SalariedEmployee
 		}
 
 
-		virtual void display()  // print all? or just calcPay()??
+		virtual void display()  
 		{
 			SalariedEmployee::display();
 			cout << "Commission: " << commission << " Total sales: " << sales << " Total pay: " << calcPay() << endl;
