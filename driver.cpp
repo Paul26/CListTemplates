@@ -105,9 +105,9 @@ int main()
 			case '4' :
 				{
 					//string name;
-					//prompt("Name", name);
-					//prompt("Year", year);
-					//prompt("Month", month);
+					//prompt("Name", name);    //  ****************  I don't believe I need any of these comments, is this correct?
+					//prompt("Year", year);    //  ****************  Because option 4 is to only list what has been inserted into the CList, correct? 
+					//prompt("Month", month);  //  **************** plus it goes into an infinite loop if used.
 					//prompt("Day", day);
 					//prompt("Street", street);
 					//prompt("City", city);

@@ -24,7 +24,7 @@ class WagedEmployee : public Employee
 		}
 
 
-		virtual void dislpay()  //  ************ Check to see if part 4 is showing up
+		virtual void dislpay()  //  ************ should this only be printing out calcPay()??
 		{
 			Employee::display();
 			cout << "Wage: " << wage << " Hours: " << hours << " Total Wage: " << calcPay() << endl;

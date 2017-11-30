@@ -24,7 +24,7 @@ class SalariedEmployee : public Employee
 		}
 
 
-		virtual void display()  // *************************** display salary AND pay?????????
+		virtual void display()  // *************************** display salary AND pay or just call calcPay()?
 		{
 			Employee::display();
 			cout << "Salary: " << calcPay() << endl;
