@@ -28,6 +28,7 @@ class SalesEmployee : public SalariedEmployee
 		{
 			SalariedEmployee::display();
 			cout << "Commission: " << commission << " Total sales: " << sales << " Total pay: " << calcPay() << endl;
+			cout << endl;
 		}
 		
 

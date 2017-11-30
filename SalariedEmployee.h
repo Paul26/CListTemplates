@@ -28,6 +28,7 @@ class SalariedEmployee : public Employee
 		{
 			Employee::display();
 			cout << "Salary: " << calcPay() << endl;
+			cout << endl;
 		}
 
 

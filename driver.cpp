@@ -57,7 +57,7 @@ int main()
 					we->setAddress(street, city);
 					cout << *we << endl;
 					//we->display();
-					employee.insert(we); // here?
+					employee.insert(we); 
 					break;
 				}
 
@@ -75,7 +75,7 @@ int main()
 					se->setAddress(street, city);
 					cout << *se << endl;
 					//se->display();
-					employee.insert(se);  // Here?
+					employee.insert(se);  
 					break;
 				}
 
@@ -98,19 +98,19 @@ int main()
 					se->setAddress(street, city);
 					cout << *se << endl;
 					//se->display();
-					employee.insert(se);  // Here?
+					employee.insert(se);  
 					break;
 				}
 
 			case '4' :
 				{
-					/*string name;
-					prompt("Name", name);
-					prompt("Year", year);
-					prompt("Month", month);
-					prompt("Day", day);
-					prompt("Street", street);
-					prompt("City", city);*/
+					//string name;
+					//prompt("Name", name);
+					//prompt("Year", year);
+					//prompt("Month", month);
+					//prompt("Day", day);
+					//prompt("Street", street);
+					//prompt("City", city);
 					employee.list();
 					break;
 				}
