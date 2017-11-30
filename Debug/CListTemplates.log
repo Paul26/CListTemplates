@@ -1,2 +1,3 @@
 ﻿  driver.cpp
-  CListTemplates.vcxproj -> C:\Dev\CS1410\CListTemplates\Debug\CListTemplates.exe
+c:\dev\cs1410\clisttemplates\clisttemplates\employee.h(62): error C2039: 'empDate': is not a member of 'Employee'
+  c:\dev\cs1410\clisttemplates\clisttemplates\employee.h(13): note: see declaration of 'Employee'

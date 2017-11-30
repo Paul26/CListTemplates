@@ -12,14 +12,14 @@ using namespace std;
 class Employee
 {
 	private:
-		Date empDate;  
+		Date birthDate;  
 		Address* empAddress;  
 		string name;
 
 
 	public:
 		Employee(string a_name, int a_year, int a_month, int a_day) 
-			: name(a_name), empDate(a_year, a_month, a_day), empAddress(NULL) {}  
+			: name(a_name), birthDate(a_year, a_month, a_day), empAddress(NULL) {}  
 
 		~Employee()
 		{
@@ -52,14 +52,14 @@ class Employee
 		virtual void display()  // ************************************************  Might need an if...statment to account for a NULL ptr, then display.
 		{
 			cout << "Employee: " << name << endl;
-			empDate.display();
+			birthDate.display();
 			empAddress->display();
 		}
 		
 
 		friend ostream& operator<<(ostream& out, Employee& me)
 		{
-			out << me.name << " " << me.empDate << " " << *me.empAddress << endl;
+			out << me.name << " " << me.birthDate << " " << *me.empAddress << endl;
 			return out;
 		}
 };
